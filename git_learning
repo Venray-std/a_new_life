@@ -1,0 +1,12 @@
+1.改代码之前，使用git pull命令，可以刷新本地的项目。
+git status 在本地查看自己更改了哪些部分
+git add -A 将已经更改的内容提交到暂存区，包括文件内容修改(modified)以及新文件，但不包括删除的文件
+git commit -m 提交，并加注释
+git push把本地的更新上传到github上
+2. 使用SSH方式连接github
+git 可以在本地commit，不用考虑联网的存在
+使用http，速度慢，每次都要输入口令。默认的git://使用ssh
+ssh-keygen -t rsa ，连续三次回车（即不做任何输入）
+检查是否已经有SSH Key cd ~/.ssh
+将生成的public key直接粘贴过去即可。
+
