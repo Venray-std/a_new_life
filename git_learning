@@ -9,4 +9,14 @@ git 可以在本地commit，不用考虑联网的存在
 ssh-keygen -t rsa ，连续三次回车（即不做任何输入）
 检查是否已经有SSH Key cd ~/.ssh
 将生成的public key直接粘贴过去即可。
+3.切换分支
+git checkout -b my-test  //在当前分支下创建my-test的本地分支分支
+git push origin my-test  //将my-test分支推送到远程
+git branch --set-upstream-to=origin/my-test //将本地分支my-test关联到远程分支my-test上   
+git branch -a //查看远程分支 
+git branch //查看本地分支
+git branch test //创建分支
+git checkout test //切换分支
+3. git ls-files //用来查看暂存区文件信息
+git rm --cached {file_name} //将文件移除暂存区
 
