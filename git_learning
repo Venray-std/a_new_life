@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 1.改代码之前，使用git pull命令，可以刷新本地的项目。
 git status 在本地查看自己更改了哪些部分
 git add -A 将已经更改的内容提交到暂存区，包括文件内容修改(modified)以及新文件，但不包括删除的文件
@@ -12,4 +13,7 @@ ssh-keygen -t rsa ，连续三次回车（即不做任何输入）
 将生成的public key直接粘贴过去即可。
 3. git的分支操作是独立的，在本地如果在这个分支新建的文件，更改的文件，对其他分支是不可见的。而push时也是分支对分支，以分支为单位。push是将本地分支与远程分支合并，与暂存区没有关系。
 =======
+>>>>>>> test_code
+=======
+This is rebuilt by test_code branch
 >>>>>>> test_code
